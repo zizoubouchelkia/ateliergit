@@ -52,3 +52,7 @@ v4 = Voiture("999DD", "BMW", "Grise")
 parc1 = Parc(1, "Toronto", 3)
 
 v1.afficherInformations()
+
+parc1.entrerVoiture(v1)
+parc1.entrerVoiture(v2)
+parc1.entrerVoiture(v3)
