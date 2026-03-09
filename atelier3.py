@@ -10,7 +10,6 @@ class Voiture:
         print("Couleur :", self.couleur)
 
 
-
 class Parc:
     def __init__(self, id, adresse, capacite):
         self.id = id
@@ -33,3 +32,13 @@ class Parc:
 
         self.listeVoitures.append(voiture)
         print("Voiture ajoutee avec succes.")
+
+    def sortirVoiture(self, voiture):
+        for v in self.listeVoitures:
+            if v.matricule == voiture.matricule:
+                self.listeVoitures.remove(v)
+                print("Voiture retiree avec succes.")
+                print("Nombre de places libres :", self.calculerNbrPlacesLibres())
+                return
+
+        print("Cette voiture n'existe pas dans le parc.")
