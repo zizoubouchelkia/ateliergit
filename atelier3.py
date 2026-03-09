@@ -42,3 +42,11 @@ class Parc:
                 return
 
         print("Cette voiture n'existe pas dans le parc.")
+
+
+v1 = Voiture("123AA", "Toyota", "Rouge")
+v2 = Voiture("456BB", "Honda", "Noire")
+v3 = Voiture("789CC", "Ford", "Blanche")
+v4 = Voiture("999DD", "BMW", "Grise")
+
+parc1 = Parc(1, "Toronto", 3)
