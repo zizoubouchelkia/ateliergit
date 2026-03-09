@@ -61,3 +61,4 @@ parc1.entrerVoiture(v4)
 parc1.entrerVoiture(v1)
 
 parc1.sortirVoiture(v2)
+parc1.sortirVoiture(v4)
